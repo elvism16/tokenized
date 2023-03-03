@@ -1,0 +1,8 @@
+vendor
+dist
+.idea
+.vscode
+yarn-error.log
+.env
+.DS_Store
+
