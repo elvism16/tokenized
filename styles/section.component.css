@@ -1,0 +1,7 @@
+.section {
+	position: relative;
+}
+
+.section__hero {
+	margin: 6rem 0;
+}
