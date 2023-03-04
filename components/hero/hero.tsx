@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({
   imgAlt
 }: HeroProps) => {
   return (
-    <div className="hero">
+    <div className="hero container">
       <div className="hero__grid">
         <div className="hero__content">
           <h1 className="hero__headline">
