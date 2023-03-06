@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Mar 2023 20:55:23 GMT
+ * Generated on Mon, 06 Mar 2023 21:43:26 GMT
  */
 
 :root {
@@ -36,4 +36,45 @@
   --globals-feedback-info-blue-300: #3fa6eb;
   --globals-feedback-info-blue-200: #3679e3;
   --globals-feedback-info-blue-100: #8ccdf9;
+  --globals-space-0: 0;
+  --globals-space-100: 0.5rem;
+  --globals-space-150: 0.75rem;
+  --globals-space-200: 1rem;
+  --globals-space-250: 1.25rem;
+  --globals-space-300: 1.5rem;
+  --globals-space-400: 2rem;
+  --globals-space-500: 2.5rem;
+  --globals-space-600: 3rem;
+  --globals-space-800: 4rem;
+  --globals-space-075: 0.375rem;
+  --globals-space-050: 0.25rem;
+  --globals-space-025: 0.125rem;
+  --globals-font-size-100: 16px;
+  --globals-font-size-200: 18px;
+  --globals-font-size-300: 20px;
+  --globals-font-size-400: 24px;
+  --globals-font-size-500: 28px;
+  --globals-font-size-600: 32px;
+  --globals-font-size-700: 36px;
+  --globals-font-size-800: 42px;
+  --globals-font-size-900: 48px;
+  --globals-font-size-075: 14px;
+  --globals-font-size-050: 12px;
+  --globals-font-size-025: 11px;
+  --globals-font-weight-400: 400;
+  --globals-font-weight-600: 600;
+  --globals-font-weight-700: 700;
+  --globals-font-weight-900: 900;
+  --globals-font-family-sans: Mona Sans, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --globals-font-text-decoration-none: none;
+  --globals-font-text-decoration-underline: underline;
+  --globals-font-text-decoration-line-through: line-through;
+  --globals-font-line-height-100: 16;
+  --globals-font-line-height-150: 24;
+  --globals-font-line-height-200: 32;
+  --globals-font-line-height-250: 40;
+  --globals-font-line-height-275: 42;
+  --globals-font-line-height-300: 48;
+  --globals-font-line-height-350: 54;
+  --globals-font-headline-monster: [object Object];
 }
