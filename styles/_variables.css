@@ -1,39 +1,39 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 12:31:40 GMT
+ * Generated on Mon, 06 Mar 2023 20:55:23 GMT
  */
 
 :root {
-  --color-blue-100: #fafcfd;
-  --color-blue-200: #e0ebf3;
-  --color-blue-300: #b3cce2;
-  --color-blue-400: #80abce;
-  --color-blue-500: #4d89ba;
-  --color-blue-600: #266fac;
-  --color-blue-700: #00569d;
-  --color-orange-100: #fff7f4;
-  --color-orange-200: #fdebe5;
-  --color-orange-300: #f9cebe;
-  --color-orange-400: #f5ad92;
-  --color-orange-500: #f18c66;
-  --color-orange-600: #ee7446;
-  --color-orange-700: #eb5b25;
-  --color-neutral-100: #f6f6f6;
-  --color-neutral-200: #e4e4e4;
-  --color-neutral-300: #bbbbbb;
-  --color-neutral-400: #8e8e8d;
-  --color-neutral-500: #61615f;
-  --color-neutral-600: #3f3f3d;
-  --color-neutral-700: #1d1d1b;
-  --color-accent-error-red-300: #ad151a;
-  --color-accent-error-red-200: #ec1c23;
-  --color-accent-error-red-100: #ffe9e9;
-  --color-accent-success-green-300: #088c26;
-  --color-accent-success-green-200: #0bb833;
-  --color-accent-success-green-100: #e1ffe8;
-  --color-accent-warning-yellow-300: #b08500;
-  --color-accent-warning-yellow-200: #ffc000;
-  --color-accent-warning-yellow-100: #fff7df;
-  --color-white: #ffffff;
-  --color-black: #000000;
+  --globals-purple-100: hsl(276, 100%, 79%);
+  --globals-purple-200: hsl(276, 79%, 69%);
+  --globals-purple-300: hsl(276, 53%, 49%);
+  --globals-purple-400: hsl(276, 64%, 48%);
+  --globals-purple-500: hsl(276, 96%, 20%);
+  --globals-turquoise-100: hsl(173, 81%, 68%);
+  --globals-turquoise-200: hsl(173, 80%, 63%);
+  --globals-turquoise-300: hsl(173, 72%, 57%);
+  --globals-turquoise-400: hsl(173, 75%, 47%);
+  --globals-turquoise-500: hsl(173, 90%, 30%);
+  --globals-neutral-100: hsl(0, 0%, 100%);
+  --globals-neutral-200: hsl(200, 23%, 97%);
+  --globals-neutral-300: hsl(200, 12%, 95%);
+  --globals-neutral-400: hsl(205, 12%, 88%);
+  --globals-neutral-500: hsl(209, 13%, 83%);
+  --globals-neutral-600: hsl(208, 6%, 55%);
+  --globals-neutral-700: hsl(210, 8%, 31%);
+  --globals-neutral-800: hsl(212, 9%, 22%);
+  --globals-neutral-900: hsl(210, 10%, 14%);
+  --globals-dark-100: hsl(240, 4%, 9%);
+  --globals-feedback-error-red-300: #AD151A;
+  --globals-feedback-error-red-200: #EC1C23;
+  --globals-feedback-error-red-100: #FFE9E9;
+  --globals-feedback-success-green-300: #088C26;
+  --globals-feedback-success-green-200: #0BB833;
+  --globals-feedback-success-green-100: #E1FFE8;
+  --globals-feedback-warning-yellow-300: #B08500;
+  --globals-feedback-warning-yellow-200: #FFC000;
+  --globals-feedback-warning-yellow-100: #FFF7DF;
+  --globals-feedback-info-blue-300: #3fa6eb;
+  --globals-feedback-info-blue-200: #3679e3;
+  --globals-feedback-info-blue-100: #8ccdf9;
 }

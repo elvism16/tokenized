@@ -8,7 +8,7 @@ body {
 	padding: 0;
 }
 body {
-	color: #202427;
+	color: var(--globals-neutral-900);
 	font-size: 100%;
 	line-height: 1.618;
 	text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@ body {
 
 a {
 	color: inherit;
-	color: blue;
+	color: var(--globals-purple-300);
 	text-decoration: none;
 }
 

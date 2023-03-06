@@ -33,7 +33,11 @@
 }
 
 .hero__headline span {
-	background: linear-gradient(315deg, #bc72ee 25%, #089181);
+	background: linear-gradient(
+		315deg,
+		var(--globals-purple-200) 25%,
+		var(--globals-turquoise-500)
+	);
 	background-clip: border-box;
 	display: block;
 	font-size: min(12vw, 6rem);
