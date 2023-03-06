@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Mar 2023 21:43:26 GMT
+ * Generated on Mon, 06 Mar 2023 21:45:31 GMT
  */
 
 :root {
@@ -65,7 +65,7 @@
   --globals-font-weight-600: 600;
   --globals-font-weight-700: 700;
   --globals-font-weight-900: 900;
-  --globals-font-family-sans: Mona Sans, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --globals-font-family-sans: "Mona Sans, -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif";
   --globals-font-text-decoration-none: none;
   --globals-font-text-decoration-underline: underline;
   --globals-font-text-decoration-line-through: line-through;
@@ -76,5 +76,4 @@
   --globals-font-line-height-275: 42;
   --globals-font-line-height-300: 48;
   --globals-font-line-height-350: 54;
-  --globals-font-headline-monster: [object Object];
 }

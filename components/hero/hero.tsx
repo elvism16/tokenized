@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Button from "../button/button";
 
 
 export interface HeroProps {
@@ -18,8 +19,16 @@ export const Hero: React.FC<HeroProps> = ({
             Are you ready to get <span>Design Tokenized?</span>
           </h1>
           <div className="button-group">
-            <a className="btn" href="#">Button 1</a>
-            <a className="btn" href="#">Button 2</a>
+            <Button
+            type='primary'
+              target='http://bitgrip.com'
+              onClick={() => console.log("You clicked the button!")}
+            >Get it</Button>
+            <Button
+              target='http://bitgrip.com'
+              onClick={() => console.log("You clicked the button!")}
+            >Try again</Button>
+
           </div>
         </div>
         <img className="hero__image" src="/hero02.png" alt="Image of buildings in Bryggen in the city of Bergen in Norway" />

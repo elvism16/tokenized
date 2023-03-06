@@ -2,6 +2,7 @@ import Head from "next/head";
 import Notification from "../components/notification/notification";
 import Section from "../components/section/section";
 import Hero from "../components/hero/hero";
+import Button from "../components/button/button";
 
 export default function Home() {
 	return (
@@ -24,6 +25,8 @@ export default function Home() {
 				<Section type='hero'>
 					<Hero />
 				</Section>
+
+				<Button>Blah</Button>
 
 				<Notification
 					title='Attention'
