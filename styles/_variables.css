@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Mar 2023 21:45:31 GMT
+ * Generated on Tue, 07 Mar 2023 11:26:04 GMT
  */
 
 :root {
-  --globals-purple-100: hsl(276, 100%, 79%);
+  --globals-purple-100: #43ee2a;
   --globals-purple-200: hsl(276, 79%, 69%);
   --globals-purple-300: hsl(276, 53%, 49%);
   --globals-purple-400: hsl(276, 64%, 48%);
