@@ -11,7 +11,7 @@
     },
     "css": {
       "transformGroup": "css",
-      "buildPath": "styles/",
+      "buildPath": "build/css/",
       "files": [{
         "destination": "_variables.css",
         "format": "css/variables"

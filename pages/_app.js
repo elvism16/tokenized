@@ -1,4 +1,4 @@
-import "../styles/_variables.css";
+import "../build/css/_variables.css";
 import "../styles/globals.css";
 import "../styles/section.component.css";
 import "../styles/hero.component.css";
