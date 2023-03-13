@@ -18,7 +18,7 @@ export const Hero: React.FC<HeroProps> = ({
           <h1 className="hero__headline">
             Are you ready to get <span>Design Tokenized?</span>
           </h1>
-          <div className="button-group">
+          <div className="btn-group">
             <Button
               type='primary'
               target='http://bitgrip.com'

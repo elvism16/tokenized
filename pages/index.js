@@ -26,13 +26,6 @@ export default function Home() {
 					<Hero />
 				</Section>
 
-				<Button>Blah</Button>
-
-				<Notification
-					title='Attention'
-					message='This is a component called Notification'
-				/>
-
 				{/* <p className={styles.description}>
 					Get started by editing <code>pages/index.js</code>
 				</p> */}
