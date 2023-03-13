@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Notification from "../components/notification/notification";
 import Section from "../components/section/section";
 import Hero from "../components/hero/hero";
-import Button from "../components/button/button";
+import Heading from "../components/heading/heading";
 
 export default function Home() {
 	return (
@@ -25,6 +24,10 @@ export default function Home() {
 				<Section type='hero'>
 					<Hero />
 				</Section>
+
+				<Heading as='h3'>Peng</Heading>
+
+				<Section type='page' heading='Test'></Section>
 
 				{/* <p className={styles.description}>
 					Get started by editing <code>pages/index.js</code>
