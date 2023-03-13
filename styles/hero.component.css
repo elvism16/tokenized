@@ -1,6 +1,5 @@
 .hero {
 	margin: 0 auto;
-	/* padding: 0 1rem; */
 	position: relative;
 }
 
@@ -40,7 +39,8 @@
 	);
 	background-clip: border-box;
 	display: block;
-	font-size: min(12vw, 6rem);
+	/* font-size: min(12vw, 6rem); */
+	font-size: clamp(4rem, 1rem + 8vw, 7rem);
 	font-weight: 900;
 	line-height: 1;
 	margin-top: 1rem;

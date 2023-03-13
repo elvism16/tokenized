@@ -12,11 +12,11 @@ export const Hero: React.FC<HeroProps> = ({
   imgAlt
 }: HeroProps) => {
   return (
-    <div className="hero container">
+    <div className="hero">
       <div className="hero__grid">
         <div className="hero__content">
           <h1 className="hero__headline">
-            Are you ready to get <span>Design Tokenized?</span>
+            <span>Design Tokenized</span>
           </h1>
           <div className="btn-group">
             <Button

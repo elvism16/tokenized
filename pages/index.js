@@ -25,8 +25,6 @@ export default function Home() {
 					<Hero />
 				</Section>
 
-				<Heading as='h3'>Peng</Heading>
-
 				<Section type='page' heading='Test'></Section>
 
 				{/* <p className={styles.description}>

@@ -16,8 +16,10 @@ export const Section: React.FC<SectionProps> = ({
 }: SectionProps) => {
   return (
     <section className={`section section__${type}`}>
-      {heading && <Heading as='h2'>{heading}</Heading>}
-      {children}
+      <div className="container">
+        {heading && <Heading as='h2'>{heading}</Heading>}
+        {children}
+      </div>
     </section>
   );
 };
