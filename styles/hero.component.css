@@ -26,7 +26,7 @@
 
 .hero__headline {
 	font-family: "Mona-Sans", sans-serif;
-	font-size: min(8vw, 3rem);
+	font-size: min(6vw, 3rem);
 	font-weight: 600;
 	line-height: 1.25;
 	text-align: center;

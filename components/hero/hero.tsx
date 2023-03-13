@@ -20,7 +20,7 @@ export const Hero: React.FC<HeroProps> = ({
           </h1>
           <div className="button-group">
             <Button
-            type='primary'
+              type='primary'
               target='http://bitgrip.com'
               onClick={() => console.log("You clicked the button!")}
             >Get it</Button>
@@ -31,7 +31,7 @@ export const Hero: React.FC<HeroProps> = ({
 
           </div>
         </div>
-        <img className="hero__image" src="/hero02.png" alt="Image of buildings in Bryggen in the city of Bergen in Norway" />
+        <img className="hero__image" src="/hero03.png" alt="Image of buildings in Bryggen in the city of Bergen in Norway" />
       </div>
     </div>
   );

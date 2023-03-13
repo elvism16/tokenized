@@ -17,11 +17,17 @@ const Button: React.FC<Props> = ({
     target
   }) => { 
   return (
-    <a href={target} className={`btn btn--${type}`}
-      onClick={onClick}
-    >
-    {children}
-    </a>
+    <>
+    {target ? (
+      <a href={target} className={`btn btn--${type}`} onClick={onClick}>
+        {children}
+      </a>
+    ) : (
+      <button className={`btn btn--${type}`} onClick={onClick}>
+        {children}
+      </button>
+    )}
+    </>
   );
 }
 
