@@ -9,20 +9,24 @@
 
 .section__heading {
 	background-color: var(--globals-neutral-100);
-	border: 7px solid #000;
+	border: var(--globals-border-width-700) solid var(--globals-neutral-900);
 	display: inline-block;
-	margin-bottom: 3rem;
-	padding: 0.5rem 1.5rem;
+	margin-bottom: var(--globals-space-600);
+	padding: var(--globals-space-100) var(--globals-space-300);
 }
 
 .section__heading:before {
-	background-color: #000;
+	background-color: var(--globals-neutral-900);
 	content: "";
 	display: block;
-	height: 7px;
+	height: var(--globals-border-width-700);
 	width: 100%;
 	position: absolute;
 	left: 0;
 	top: 2rem;
 	z-index: -1;
+}
+
+.section .card {
+	margin-bottom: var(--globals-space-600);
 }

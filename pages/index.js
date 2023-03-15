@@ -29,12 +29,16 @@ export default function Home() {
 						heading='Headline, Ladies'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
 						linkTarget='http://bitgrip.com'
-					></Card>
+					/>
+					<Card
+						imgSrc='/hero01.png'
+						category='Design'
+						catTarget='#'
+						heading='Nicholas Humphrey’s Beautiful Theory of Mind'
+						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
+						linkTarget='http://bitgrip.com'
+					/>
 				</Section>
-
-				{/* <p className={styles.description}>
-					Get started by editing <code>pages/index.js</code>
-				</p> */}
 			</main>
 
 			<footer>Footer</footer>

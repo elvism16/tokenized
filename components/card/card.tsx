@@ -22,7 +22,9 @@ export const Card: React.FC<CardProps> = ({
     <div className="card">
       <div className="card__wrapper">
         {imgSrc && <div className="card__media">
-          <img className="card__image" src={imgSrc} alt="Image of buildings in Bryggen in the city of Bergen in Norway" />
+          <a href={linkTarget} rel="bookmark">
+            <img className="card__image" src={imgSrc} alt="Image of buildings in Bryggen in the city of Bergen in Norway" />
+          </a>
         </div>}
         <div className="card__body">
           <div className="card__body-wrap">
