@@ -9,14 +9,6 @@ export default function Home() {
 			<Head>
 				<title>Get Tokenized</title>
 				<link rel='icon' href='/favicon.ico' />
-
-				{/* <link
-					rel='preload'
-					href='https://fonts.cdnfonts.com/css/mona-sans'
-					as='font'
-					type='font/woff2'
-					crossorigin
-				/> */}
 			</Head>
 			<header>
 				<a href='/'>
@@ -29,13 +21,13 @@ export default function Home() {
 					<Hero />
 				</Section>
 
-				<Section type='page' heading='Test'>
+				<Section type='page' heading='From the Blog'>
 					<Card
 						imgSrc='/hero01.png'
 						category='Blog'
 						catTarget='#'
 						heading='Headline, Ladies'
-						paragraph='An really awesome piece of text'
+						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
 						linkTarget='http://bitgrip.com'
 					></Card>
 				</Section>

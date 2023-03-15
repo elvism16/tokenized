@@ -1,5 +1,13 @@
 .card {
+	container-type: inline-size;
 	overflow: hidden;
+	position: relative;
+}
+
+.card__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	position: relative;
 }
 
@@ -9,7 +17,7 @@
 
 .card__body {
 	position: relative;
-	text-align: center;
+	text-align: var(--globals-font-text-align-center);
 	top: calc(-1 * var(--globals-space-300));
 }
 
@@ -19,8 +27,7 @@
 
 .card__category {
 	background-color: var(--globals-neutral-900);
-	border: 7px solid var(--globals-neutral-100);
-	border-radius: 3px;
+	border: var(--globals-border-width-300) solid var(--globals-neutral-100);
 	color: var(--globals-neutral-100);
 	display: inline-block;
 	font-weight: var(--globals-font-weight-900);
@@ -32,13 +39,14 @@
 .card__category:hover,
 .card__category:focus,
 .card__category:active {
-	border: 7px solid var(--globals-turquoise-100);
+	border: var(--globals-border-width-300) solid var(--globals-turquoise-100);
 	color: var(--globals-turquoise-100);
 }
 
 .card__headline {
-	font-weight: var(--globals-font-weight-700);
-	text-align: left;
+	font-weight: var(--globals-font-weight-900);
+	margin: var(--globals-space-200) 0 var(--globals-space-100);
+	text-align: var(--globals-font-text-align-left);
 	text-transform: uppercase;
 }
 
@@ -49,10 +57,35 @@
 .card__headline a:hover,
 .card__headline a:focus,
 .card__headline a:active {
-	text-decoration: underline;
+	text-decoration: var(--globals-font-text-decoration-underline);
 }
 
 .card__text {
 	font-size: var(--globals-font-size-200);
-	text-align: left;
+	text-align: var(--globals-font-text-align-left);
+}
+
+@container (min-width: 700px) {
+	.card__wrapper {
+		flex-direction: row;
+		gap: var(--globals-space-400);
+	}
+
+	.card__body {
+		top: 0;
+	}
+
+	.card__body-wrap {
+		text-align: var(--globals-font-text-align-left);
+	}
+
+	.card__category {
+		background-color: var(--globals-neutral-100);
+		border: var(--globals-border-width-300) solid var(--globals-neutral-900);
+		color: var(--globals-neutral-900);
+	}
+
+	.card__headline {
+		margin: var(--globals-space-300) 0 var(--globals-space-100);
+	}
 }

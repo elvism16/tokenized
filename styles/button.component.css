@@ -6,20 +6,20 @@
 	font-weight: var(--globals-font-weight-700);
 	padding: var(--globals-space-150) var(--globals-space-200);
 	text-decoration: var(--globals-font-text-decoration-none);
-	text-align: center;
-	transition: all 0.2s ease-in-out;
+	text-align: var(--globals-font-text-align-center);
+	transition: var(--globals-transition-100);
 }
 
 .btn--primary {
 	background-color: var(--globals-purple-100);
-	border: 3px solid var(--globals-purple-100);
+	border: var(--globals-border-width-300) solid var(--globals-purple-100);
 }
 
 .btn--primary:hover,
 .btn--primary:focus,
 .btn--primary:active {
 	background-color: var(--globals-purple-200);
-	transition: all 0.2s ease-in-out;
+	transition: var(--globals-transition-100);
 }
 
 .btn--secondary {
@@ -31,7 +31,7 @@
 .btn--secondary:focus,
 .btn--secondary:active {
 	background-color: var(--globals-turquoise-400);
-	transition: all 0.2s ease-in-out;
+	transition: var(--globals-transition-100);
 }
 
 .btn-group {

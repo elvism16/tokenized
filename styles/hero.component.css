@@ -24,7 +24,7 @@
 }
 
 .hero__headline {
-	font-family: var(--globals-font-family-sans);
+	/* font-family: var(--globals-font-family-sans); */
 	text-align: center;
 }
 
@@ -36,11 +36,7 @@
 	);
 	background-clip: border-box;
 	display: block;
-	/* font-size: min(12vw, 6rem); */
 	font-size: clamp(4rem, 1rem + 8vw, 7rem);
-	font-weight: 900;
-	line-height: 1;
-	margin-top: 1rem;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
