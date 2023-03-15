@@ -5,7 +5,7 @@
 	display: inline-block;
 	font-weight: var(--globals-font-weight-700);
 	padding: var(--globals-space-150) var(--globals-space-200);
-	text-decoration: none;
+	text-decoration: var(--globals-font-text-decoration-none);
 	text-align: center;
 	transition: all 0.2s ease-in-out;
 }

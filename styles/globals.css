@@ -1,3 +1,7 @@
+:root {
+	--max-page-width: 1200px;
+}
+
 @font-face {
 	font-family: "Mona Sans";
 	src: url("/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
@@ -17,7 +21,7 @@ body {
 body {
 	color: var(--globals-neutral-900);
 	font-size: 100%;
-	line-height: 1.618;
+	line-height: var(--globals-font-line-height-default);
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
@@ -25,7 +29,7 @@ body {
 a {
 	color: inherit;
 	color: var(--globals-purple-300);
-	text-decoration: none;
+	text-decoration: var(--globals-font-text-decoration-none);
 }
 
 * {
@@ -49,11 +53,6 @@ ul {
 	list-style: none;
 }
 
-button {
-	padding: 0.5rem 1rem;
-	font-weight: bold;
-}
-
 .container {
 	margin: 0 auto;
 	max-width: 100%;
@@ -68,7 +67,7 @@ button {
 
 @media (min-width: 75em) {
 	.container {
-		max-width: 1200px;
+		max-width: var(--max-page-width);
 		padding: 0 1rem;
 	}
 }
