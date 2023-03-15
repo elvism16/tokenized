@@ -3,5 +3,5 @@
 }
 
 .section__hero {
-	margin: 6rem 0;
+	margin: calc(2 * var(--globals-space-600)) 0;
 }

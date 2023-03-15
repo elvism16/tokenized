@@ -24,7 +24,7 @@
 }
 
 .hero__headline {
-	font-family: "Mona-Sans", sans-serif;
+	font-family: var(--globals-font-family-sans);
 	text-align: center;
 }
 

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Section from "../components/section/section";
 import Hero from "../components/hero/hero";
-import Heading from "../components/heading/heading";
+import Card from "../components/card/card";
 
 export default function Home() {
 	return (
@@ -9,10 +9,14 @@ export default function Home() {
 			<Head>
 				<title>Get Tokenized</title>
 				<link rel='icon' href='/favicon.ico' />
-				<link
+
+				{/* <link
+					rel='preload'
 					href='https://fonts.cdnfonts.com/css/mona-sans'
-					rel='stylesheet'
-				/>
+					as='font'
+					type='font/woff2'
+					crossorigin
+				/> */}
 			</Head>
 			<header>
 				<a href='/'>
@@ -25,7 +29,16 @@ export default function Home() {
 					<Hero />
 				</Section>
 
-				<Section type='page' heading='Test'></Section>
+				<Section type='page' heading='Test'>
+					<Card
+						imgSrc='/hero01.png'
+						category='Blog'
+						catTarget='#'
+						heading='Headline, Ladies'
+						paragraph='An really awesome piece of text'
+						linkTarget='http://bitgrip.com'
+					></Card>
+				</Section>
 
 				{/* <p className={styles.description}>
 					Get started by editing <code>pages/index.js</code>
