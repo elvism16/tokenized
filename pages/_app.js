@@ -1,6 +1,7 @@
 import "../build/css/_variables.css";
 import "../styles/_reset.css";
 import "../styles/globals.css";
+import "../styles/navigation.component.css";
 import "../styles/section.component.css";
 import "../styles/hero.component.css";
 import "../styles/notification.component.css";

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Section from "../components/section/section";
 import Hero from "../components/hero/hero";
 import Card from "../components/card/card";
+import MainNav from "../components/navigation/navigation";
 
 export default function Home() {
 	return (
@@ -10,10 +11,13 @@ export default function Home() {
 				<title>Get Tokenized</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<header>
-				<a href='/'>
-					<img alt='Your Logo' src='/Logo.svg' />
-				</a>
+			<header className='masthead'>
+				<div className='masthead__wrapper'>
+					<a href='/'>
+						<img alt='Your Logo' src='/Logo.svg' />
+					</a>
+					<MainNav />
+				</div>
 			</header>
 			<main>
 				{/* hero section */}
@@ -23,7 +27,7 @@ export default function Home() {
 
 				<Section type='page' heading='From the Blog'>
 					<Card
-						imgSrc='/hero01.png'
+						imgSrc='img/tsr01.png'
 						category='Blog'
 						catTarget='#'
 						heading='Headline, Ladies'
@@ -31,10 +35,34 @@ export default function Home() {
 						linkTarget='http://bitgrip.com'
 					/>
 					<Card
-						imgSrc='/hero01.png'
+						imgSrc='img/tsr02.png'
 						category='Design'
 						catTarget='#'
 						heading='Nicholas Humphrey’s Beautiful Theory of Mind'
+						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
+						linkTarget='http://bitgrip.com'
+					/>
+					<Card
+						imgSrc='img/tsr03.png'
+						category='Culture'
+						catTarget='#'
+						heading='Winning Tactics For TOKEN DESIGN'
+						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
+						linkTarget='http://bitgrip.com'
+					/>
+					<Card
+						imgSrc='img/tsr04.png'
+						category='Tech & Dev'
+						catTarget='#'
+						heading='Little Known Ways To Rid Yourself Of the Grid'
+						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
+						linkTarget='http://bitgrip.com'
+					/>
+					<Card
+						imgSrc='img/tsr05.png'
+						category='Design'
+						catTarget='#'
+						heading='The Hidden Mystery Behind Design Tokens'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
 						linkTarget='http://bitgrip.com'
 					/>
