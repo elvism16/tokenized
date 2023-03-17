@@ -48,7 +48,7 @@ export const MainNav: React.FC<MainNavProps> = ({
           <li className="nav-item"><a href="#">Home</a></li>
           <li className="nav-item"><a href="#">What are Design Tokens</a></li>
           <li className="nav-item"><a href="#" >Design Token Types</a></li>
-          <li className="nav-item"><a href="#">Contact</a></li>
+          <li className="nav-item"><a href="#">Blog</a></li>
         </ul>
       </nav>
     </div>
