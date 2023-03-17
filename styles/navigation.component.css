@@ -1,3 +1,16 @@
+/* Todo */
+/*--font-size-mega-fluid: clamp(2.4rem, calc(2.4rem + ((1vw - 0.2rem) * 3.85)), 6.25rem);
+  --font-size-h1-fluid: clamp(2.4rem, calc(2.4rem + ((1vw - 0.2rem) * 2.668)), 5.068rem);
+  --font-size-h2-fluid: clamp(2rem, calc(2rem + ((1vw - 0.2rem) * 2)), 4rem);*/
+
+.menu-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 16px;
+	position: relative;
+}
+
 .menu-button {
 	position: relative;
 	z-index: 110;
@@ -44,6 +57,8 @@
 
 .main-nav--active {
 	animation: showNav 0.6s ease forwards;
+	opacity: 1;
+	transition: opacity ease-in 0.3s;
 }
 
 @keyframes showNav {
@@ -57,6 +72,8 @@
 
 .main-nav--hidden {
 	animation: hideNav 0.4s ease forwards;
+	opacity: 0;
+	transition: opacity ease-in 0.3s;
 }
 
 @keyframes hideNav {
@@ -66,4 +83,53 @@
 	to {
 		top: -100%;
 	}
+}
+
+.menu-button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 8px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	z-index: 110;
+}
+
+.menu-button.is-open .path01 {
+	transform-origin: center;
+	transform: translateX(12%) translateY(11%) rotate(-45deg);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button.is-open .path02 {
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button.is-open .path03 {
+	transform-origin: center;
+	transform: translateX(13%) translateY(-12%) rotate(45deg);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button.is-closed .path01 {
+	transform-origin: center;
+	transform: translateX(0) translateY(0) rotate(0deg);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button.is-closed .path02 {
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button.is-closed .path03 {
+	transform-origin: center;
+	transform: translateX(0) translateY(0) rotate(0deg);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button .icon {
+	fill: var(--globals-purple-400);
+	transition: all 0.3s ease-in-out;
 }

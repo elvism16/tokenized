@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<header className='masthead'>
-				<div className='masthead__wrapper'>
+				<div className='menu-wrapper'>
 					<a href='/'>
 						<img alt='Your Logo' src='/Logo.svg' />
 					</a>
