@@ -1,15 +1,15 @@
 import * as React from 'react';
 import Button from "../button/button";
-
-
 export interface HeroProps {
   imgSrc?: string;
   imgAlt?: string;
 }
 
+// todo: if image change grid / grid via tokens / css for grid variants
+
 export const Hero: React.FC<HeroProps> = ({
   imgSrc,
-  imgAlt
+  imgAlt,
 }: HeroProps) => {
   return (
     <div className="hero">
@@ -28,10 +28,9 @@ export const Hero: React.FC<HeroProps> = ({
               target='http://bitgrip.com'
               onClick={() => console.log("You clicked the button!")}
             >Try again</Button>
-
           </div>
         </div>
-        <img className="hero__image" src="/hero03.png" alt="Image of buildings in Bryggen in the city of Bergen in Norway" />
+        {imgSrc && <img className="hero__image" src={imgSrc} alt={imgAlt} />}
       </div>
     </div>
   );

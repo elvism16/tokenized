@@ -1,10 +1,19 @@
 .section {
 	position: relative;
-	margin: calc(2 * var(--globals-space-600)) 0 0;
+}
+
+.section__hero {
+	background: linear-gradient(
+		315deg,
+		var(--globals-purple-200) 25%,
+		var(--globals-turquoise-500)
+	);
+	background-color: var(--globals-neutral-900);
+	padding: calc(3 * var(--globals-space-800)) 0;
 }
 
 .section__hero ~ * {
-	margin: calc(4 * var(--globals-space-600)) 0 0;
+	margin: calc(2 * var(--globals-space-600)) 0 0;
 }
 
 .section__heading {
