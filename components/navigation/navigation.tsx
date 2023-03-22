@@ -45,8 +45,8 @@ export const MainNav: React.FC<MainNavProps> = ({
       </button>
       <nav className={`main-nav main-nav--${isActive ? "active" : "hidden"}`}>
         <ul className="main-nav__list">
-          <li className="nav-item"><a href="#">Home</a></li>
-          <li className="nav-item"><a href="#">What are Design Tokens</a></li>
+          <li className="nav-item"><a href="/">Home</a></li>
+          <li className="nav-item"><a href="/article">What are Design Tokens</a></li>
           <li className="nav-item"><a href="#" >Design Token Types</a></li>
           <li className="nav-item"><a href="#">Blog</a></li>
         </ul>

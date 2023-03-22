@@ -37,6 +37,18 @@
 	text-align: center;
 }
 
+@media (min-width: 48em) {
+	.main-nav__list {
+		margin-left: auto;
+		margin-right: var(--globals-space-400);
+		max-width: 50vw;
+	}
+
+	.nav-item {
+		text-align: right;
+	}
+}
+
 .nav-item > a {
 	color: #fff;
 	padding: 10px;
