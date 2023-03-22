@@ -28,7 +28,7 @@ jobs:
     # Step 2: run the sync action
     - name: Sync upstream changes
       id: sync
-      uses: elvism16/tokenized@fork
+      uses: elvism16/tokenized@main
       with:
         target_sync_branch: main
         # REQUIRED 'target_repo_token' exactly like this!
