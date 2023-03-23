@@ -13,17 +13,26 @@ export default function Home() {
 			<main>
 				<article className='article container'>
 					<div className='article__header full-width'>
-						<div className='article__header__inner container'>
-							<div className='article__hero'>
-								<h1>Nulla vitae elit libero, a pharetra augue</h1>
-								<div className='byline'>
-									<a rel='author' href='/author/john-doe'>
-										John Doe
-									</a>
-									<time pubdate datetime='2023-08-18' title='August 18th, 2023'>
-										18/8/23
-									</time>
+						<div className='article__hero'>
+							<div className='article__hero-content container'>
+								<div className='article__hero-headline'>
+									<h1>Nulla vitae elit libero, a pharetra augue</h1>
+									<div className='article__hero-byline'>
+										<a rel='author' href='/author/john-doe'>
+											John Doe
+										</a>
+										<time
+											pubdate
+											datetime='2023-08-18'
+											title='August 18th, 2023'
+										>
+											18/8/23
+										</time>
+									</div>
 								</div>
+							</div>
+							<div className='article__hero-media'>
+								<img src='img/article01.jpg' alt='img/article01.jpg' />
 							</div>
 						</div>
 					</div>

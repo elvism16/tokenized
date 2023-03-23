@@ -80,8 +80,31 @@ article a {
 }
 
 .article__header {
+	background: linear-gradient(
+		315deg,
+		var(--globals-purple-200) 25%,
+		var(--globals-turquoise-500)
+	);
 	background-color: var(--globals-purple-100);
-	height: 550px;
+}
+
+.article__hero {
+	position: relative;
+}
+
+.article__hero-headline {
+	color: var(--globals-neutral-200);
+	position: absolute;
+	bottom: 1vh;
+	z-index: 1;
+}
+
+.article__hero-media img {
+	display: block;
+	height: 35vh;
+	object-fit: cover;
+	opacity: 0.1;
+	width: 100%;
 }
 
 .article__intro > p {
