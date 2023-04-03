@@ -1,32 +1,22 @@
 name: CI
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: push
 
 jobs:
-  build:
+  copy-file:
     runs-on: ubuntu-latest
-    container: pandoc/latex    # "ubuntu" is a more generic container
-                               # using "pandoc/latex" because of dependencies
-                               # used in the specific "build.sh"
-                               
-    strategy:
-      matrix:
-        node-version: [16.x]
-        
-        
     steps:
-      - uses: actions/checkout@v2
-      - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          source-directory: 'tokens'
-          destination-github-username: 'mastermucha'
-          destination-repository-name: 'tokenized-app'
-          user-email: elvis.m16@gmail.com
-          target-branch: main
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Pushes test file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'tokens'
+        destination_repo: 'mastermucha/tokenized-app'
+        destination_folder: 'tokens'
+        user_email: 'elvis.m16@gmail.com'
+        user_name: 'mastermucha'
+        commit_message: 'A custom message for the commit'
