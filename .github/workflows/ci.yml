@@ -23,7 +23,7 @@ jobs:
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.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 }}
+          API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
         with:
           source-directory: 'tokens'
           destination-github-username: 'mastermucha'
