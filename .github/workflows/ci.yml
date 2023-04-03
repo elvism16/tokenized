@@ -15,8 +15,8 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: 'tokens'
-        destination_repo: 'mastermucha/tokenized-app'
+        destination_repo: 'elvism16/tokenized-app'
         destination_folder: 'tokens'
         user_email: 'elvis.m16@gmail.com'
-        user_name: 'mastermucha'
+        user_name: 'elvism16'
         commit_message: 'A custom message for the commit'
