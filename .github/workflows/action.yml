@@ -1,23 +1,24 @@
-name: Create PR
+name: Copy
 on:
     push:
         branches: [ main ]
-
 jobs:
-  pull-request:
+  copy:
     runs-on: ubuntu-latest
-    container: pandoc/latex
-    name: A job to create a PR in a separate repo
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Repo PR step
-        uses: harrietrs/copy-to-pr@v1.0.0
-        env:
-          GH_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-            source_directory: 'tokens' 
-            destination_repo: 'tokenized-app'
-            destination_owner: 'elvism16'
-            destination_base_branch: 'main'
-            destination_directory: 'tokens' 
+    - name: Copycat
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+        src_path: tokens
+        dst_path: tokens
+        dst_owner: elvism16
+        dst_repo_name: tokenized-app
+        dst_branch: main
+        src_branch: main
+        clean: true
+        src_wiki: false
+        dst_wiki: false
+        username: elvism16
+        email: elvis.m16t@gmail.com
+            
