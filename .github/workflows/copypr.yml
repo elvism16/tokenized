@@ -1,0 +1,23 @@
+name: Create PR
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    container: pandoc/latex
+    name: A job to create a PR in a separate repo
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Repo PR step
+        uses: ./ 
+        env:
+          GH_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+            source_directory: 'tokens' 
+            destination_repo: 'tokenized-app'
+            destination_owner: 'elvism16'
+            destination_base_branch: 'main'
+            destination_directory: 'tokens' 
