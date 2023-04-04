@@ -14,4 +14,4 @@ jobs:
         uses: planetoftheweb/copy-to-branches@v1.3
         env:
           key: main
-          files: tokens.json
+          files: tokens/tokens.json
