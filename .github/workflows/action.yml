@@ -13,7 +13,7 @@ jobs:
         src_path: /tokens/tokens.json
         dst_path: /.
         dst_owner: elvism16
-        dst_repo_name: elvism16/tokenized-app
+        dst_repo_name: tokenized-app
         dst_branch: main
         src_branch: main
         clean: true
