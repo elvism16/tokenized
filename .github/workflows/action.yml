@@ -10,7 +10,7 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.API_TOKEN_GITHUB }}
-        src_path: /tokens/tokens.json
+        src_path: tokens/tokens.json
         dst_path: /.
         dst_owner: elvism16
         dst_repo_name: tokenized-app
