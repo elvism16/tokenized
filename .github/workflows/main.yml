@@ -1,0 +1,15 @@
+name: copy to branches
+on:
+  workflow_dispatch:
+jobs:
+  copy-to-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Copy To Branchens Action
+        uses: planetoftheweb/copy-to-branches@latest
+        env:
+          key: main
+          files: tokens/tokens.json
