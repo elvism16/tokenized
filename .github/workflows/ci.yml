@@ -20,6 +20,5 @@ jobs:
           destination-username: 'elvism16'
           destination-repository: 'tokenized-app'
           destination-branch: main
-          destination-directory: 'tokens/'
           commit-email: 'elvis_m16@gmail.com'
           commit-username: 'elvism16'
