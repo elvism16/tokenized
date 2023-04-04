@@ -17,7 +17,7 @@
 
 .card__body {
 	position: relative;
-	text-align: var(--globals-font-text-align-center);
+	text-align: center;
 	top: calc(-1 * var(--globals-space-300));
 }
 
@@ -26,9 +26,9 @@
 }
 
 .card__category {
-	background-color: var(--globals-neutral-900);
-	border: var(--globals-border-width-300) solid var(--globals-neutral-100);
-	color: var(--globals-neutral-100);
+	background-color: var(--globals-color-neutral-700);
+	border: var(--globals-border-width-300) solid var(--globals-color-white);
+	color: var(--globals-color-white);
 	display: inline-block;
 	font-weight: var(--globals-font-weight-900);
 	padding: var(--globals-space-100);
@@ -39,30 +39,32 @@
 .card__category:hover,
 .card__category:focus,
 .card__category:active {
-	border: var(--globals-border-width-300) solid var(--globals-turquoise-100);
-	color: var(--globals-turquoise-100);
+	border: var(--globals-border-width-100) solid var(--globals-color-blue-500);
+	color: var(--globals-color-blue-500);
 }
 
 .card__headline {
 	font-weight: var(--globals-font-weight-900);
 	margin: var(--globals-space-200) 0 var(--globals-space-100);
-	text-align: var(--globals-font-text-align-left);
+	text-align: left;
 	text-transform: uppercase;
 }
 
 .card__headline a {
-	color: var(--globals-neutral-900);
+	color: var(--globals-color-neutral-700);
+	text-decoration: none;
 }
 
 .card__headline a:hover,
 .card__headline a:focus,
 .card__headline a:active {
-	text-decoration: var(--globals-font-text-decoration-underline);
+	color: var(--globals-color-blue-500);
 }
 
 .card__text {
+	color: var(--globals-color-neutral-700);
 	font-size: var(--globals-font-size-200);
-	text-align: var(--globals-font-text-align-left);
+	text-align: left;
 }
 
 @container (min-width: 700px) {
@@ -76,13 +78,13 @@
 	}
 
 	.card__body-wrap {
-		text-align: var(--globals-font-text-align-left);
+		text-align: left;
 	}
 
 	.card__category {
-		background-color: var(--globals-neutral-100);
-		border: var(--globals-border-width-300) solid var(--globals-neutral-900);
-		color: var(--globals-neutral-900);
+		background-color: var(--globals-color-white);
+		border: var(--globals-border-width-100) solid var(--globals-color-neutral-700);
+		color: var(--globals-color-neutral-700);
 	}
 
 	.card__headline {

@@ -13,6 +13,7 @@
 }
 
 .claim {
+	fill: var(--globals-color-blue-700);
 	margin-top: calc(var(--globals-space-100) / 2);
 }
 

@@ -59,7 +59,7 @@
 
 .nav-item > a:hover,
 .nav-item > a:focus {
-	color: var(--globals-purple-100);
+	color: var(--globals-color-orange-600);
 	transition: var(--globals-transition-200);
 }
 
@@ -138,6 +138,11 @@
 }
 
 .menu-button .icon {
-	fill: var(--globals-purple-400);
+	fill: var(--globals-color-blue-700);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-button.is-open .icon {
+	fill: var(--globals-color-orange-600);
 	transition: all 0.3s ease-in-out;
 }
