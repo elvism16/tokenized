@@ -1,4 +1,4 @@
-name: Copy
+name: Copycat
 on:
     push:
         branches: [ main ]
@@ -10,15 +10,15 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.API_TOKEN_GITHUB }}
-        src_path: /.
+        src_path: /tokens/tokens.json
         dst_path: /.
         dst_owner: elvism16
-        dst_repo_name: tokenized-app
+        dst_repo_name: elvism16/tokenized-app
         dst_branch: main
         src_branch: main
         clean: true
         src_wiki: false
         dst_wiki: false
         username: elvism16
-        email: elvis.m16t@gmail.com
+        email: elvis.m16@gmail.com
             
