@@ -64,6 +64,11 @@ ul {
 	width: 1px;
 }
 
+*:focus-visible {
+	outline: 2px solid currentcolor;
+	outline-offset: 2px;
+}
+
 h1 {
 	font-size: var(--globals-font-size-900);
 	font-weight: var(--globals-font-weight-900);
