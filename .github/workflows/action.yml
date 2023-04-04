@@ -7,18 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Copycat
-      uses: andstor/copycat-action@v3
+    - uses: actions/checkout@v2.3.4
+    - uses: GuillaumeFalourd/copy-push-files@v1
       with:
-        personal_token: ${{ secrets.API_TOKEN_GITHUB }}
-        src_path: tokens/tokens.json
-        dst_path: /.
-        dst_owner: elvism16
-        dst_repo_name: tokenized-app
-        dst_branch: main
-        src_branch: main
-        clean: true
-        src_wiki: false
-        dst_wiki: false
-        username: elvism16
-        email: elvis.m16@gmail.com
+          source_files: tokens/tokens.json
+          remote_repository: https://github.com/elvism16/tokenized-app
+          access_token: ${{ secrets.ACCESS_TOKEN }}
+
             
