@@ -19,4 +19,3 @@ jobs:
         destination_folder: 'tokens'
         user_email: 'elvis.m16@gmail.com'
         user_name: 'elvism16'
-        commit_message: 'A custom message for the commit'
