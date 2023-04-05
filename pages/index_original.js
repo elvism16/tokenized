@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Notification from "../components/notification/notification";
 import Section from "../components/section/section";
 
