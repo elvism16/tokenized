@@ -21,7 +21,7 @@ blockquote {
 }
 
 .article {
-	color: var(--semantics-color-copy);
+	color: var(--semantics-color-font-copy-on-light);
 }
 
 article p {

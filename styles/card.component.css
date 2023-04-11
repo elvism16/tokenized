@@ -51,7 +51,7 @@
 }
 
 .card__headline a {
-	color: var(--semantics-color-headline);
+	color: var(--semantics-color-font-headline-on-light);
 	text-decoration: var(--font-text-case-none);
 }
 
@@ -62,7 +62,7 @@
 }
 
 .card__text {
-	color: var(--semantics-color-copy);
+	color: var(--semantics-color-font-copy-on-light);
 	font-size: var(--font-size-200);
 	text-align: left;
 }
