@@ -33,6 +33,7 @@
 }
 
 .hero__grid--has-image .hero__headline {
+	font-size: clamp(3rem, 1rem + 8vw, 5rem);
 	text-align: var(--font-text-align-left);
 }
 
