@@ -18,9 +18,18 @@
 
 .section__heading {
 	color: var(--color-neutral-700);
+	grid-column: 1 / -1;
 	margin-bottom: var(--space-600);
 }
 
 .section .card {
 	margin-bottom: var(--space-600);
+}
+
+@media (min-width: 48em) {
+	.section__page .container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 24px;
+	}
 }
