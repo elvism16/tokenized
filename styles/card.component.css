@@ -39,8 +39,8 @@
 .card__category:hover,
 .card__category:focus,
 .card__category:active {
-	border: var(--border-width-300) solid var(--color-blue-500);
-	color: var(--color-blue-500);
+	border: var(--border-width-300) solid var(--color-primary-700);
+	color: var(--color-primary-700);
 }
 
 .card__headline {
@@ -51,18 +51,18 @@
 }
 
 .card__headline a {
-	color: var(--semantics-color-font-headline-on-light);
+	color: var(--semantics-color-headline-dark);
 	text-decoration: var(--font-text-case-none);
 }
 
 .card__headline a:hover,
 .card__headline a:focus,
 .card__headline a:active {
-	color: var(--color-blue-500);
+	color: var(--color-primary-700);
 }
 
 .card__text {
-	color: var(--semantics-color-font-copy-on-light);
+	color: var(--semantics-color-text-dark);
 	font-size: var(--font-size-200);
 	text-align: left;
 }

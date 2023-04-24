@@ -9,6 +9,8 @@ import "../styles/hero.component.css";
 import "../styles/notification.component.css";
 import "../styles/button.component.css";
 import "../styles/card.component.css";
+import "../styles/benefits.component.css";
+import "../styles/mission.component.css";
 
 export default function MyApp({ Component, pageProps }) {
 	return <Component {...pageProps} />;

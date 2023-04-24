@@ -3,17 +3,17 @@
 }
 
 .section__hero {
-	background: linear-gradient(
+	/* background: linear-gradient(
 		315deg,
-		var(--color-blue-300) 25%,
-		var(--color-orange-300)
-	);
-	background-color: var(--color-blue-700);
+		var(--color-primary-700) 25%,
+		var(--color-neutral-700)
+	); */
+	background-color: var(--color-neutral-700);
 	padding: calc(3 * var(--space-800)) 0;
 }
 
 .section__hero ~ * {
-	margin: calc(2 * var(--space-600)) 0 0;
+	margin: calc(3 * var(--space-600)) 0 0;
 }
 
 .section__heading {
