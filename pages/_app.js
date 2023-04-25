@@ -11,6 +11,8 @@ import "../styles/button.component.css";
 import "../styles/card.component.css";
 import "../styles/benefits.component.css";
 import "../styles/mission.component.css";
+import "../styles/showcase.component.css";
+import "../styles/footer.component.css";
 
 export default function MyApp({ Component, pageProps }) {
 	return <Component {...pageProps} />;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Heading from '../heading/heading';
 
-type Type = 'hero' | 'single' | 'double' | 'triple';
+type Type = 'hero' | 'default' | 'single' | 'double' | 'triple';
 
 export interface SectionProps {
   bground?: boolean;
@@ -15,7 +15,7 @@ export const Section: React.FC<SectionProps> = ({
   children,
   heading,
   byline,
-  type = 'single',
+  type = 'default',
   bground
 }: SectionProps) => {
   return (
