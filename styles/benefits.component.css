@@ -1,0 +1,18 @@
+.benefits {
+  position: relative;
+  text-align: center;
+}
+
+.benefits__icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-400);
+}
+
+.benefits__icon svg {
+  fill: var(--semantics-color-text-brand);
+}
+
+.benefits__headline {
+  margin-bottom: var(--space-200);
+}

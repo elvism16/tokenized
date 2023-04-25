@@ -14,12 +14,12 @@ export const Benefits: React.FC<BenefitsProps> = ({
   children
 }: BenefitsProps) => {
   return (
-    <div className="benfits">
+    <div className="benefits">
       <div className="benefits__icon">
         {children}
       </div>
-      <Heading as="h3" className="benfits__headline">{heading}</Heading>
-      {paragraph && <p className="benfits__text">{paragraph}</p>}
+      <Heading as="h3" className="benefits__headline">{heading}</Heading>
+      {paragraph && <p className="benefits__text">{paragraph}</p>}
     </div>
   );
 };

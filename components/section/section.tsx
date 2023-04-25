@@ -4,6 +4,7 @@ import Heading from '../heading/heading';
 type Type = 'hero' | 'single' | 'double' | 'triple';
 
 export interface SectionProps {
+  bground?: boolean;
   type?: Type;
   heading: string;
   byline: string;
@@ -14,10 +15,11 @@ export const Section: React.FC<SectionProps> = ({
   children,
   heading,
   byline,
-  type = 'single'
+  type = 'single',
+  bground
 }: SectionProps) => {
   return (
-    <section className={`section section__${type}`}>
+    <section className={`section section__${type} ${bground ? "section--dark" : ""}`}>
       <div className="container">
         {heading && <Heading className='section__heading' as='h2'>{heading}</Heading>}
         {byline && <p className='section__byline'>{byline}</p>}

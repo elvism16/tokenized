@@ -26,7 +26,7 @@ export default function Home() {
 
 				{/* OUR MISSION */}
 
-				<Section type='single' heading='Our Mission'>
+				<Section type='single' heading='Welcome'>
 					<Mission
 						heading='Build a design system you can use — fast'
 						paragraph='Building and maintaining a design system can feel like an impossible challenge. Knapsack gives teams a jump start by providing the core infrastructure and platform needed to get to value quickly, with best practices baked into the platform.'
@@ -43,23 +43,11 @@ export default function Home() {
 					type='triple'
 					heading='Automate your design to code workflow!'
 					byline='Using advanced token technology, changes are automatically applied to already coded components on any platform instantly.'
+					bground
 				>
 					<Benefits
-						heading='Benefits 01'
+						heading='Save time and money'
 						paragraph='Slash your development time and costs with a platform that lets you write once and deploy anywhere.'
-					>
-						<svg
-							xmlns='http://www.w3.org/2000/svg'
-							height='48'
-							viewBox='0 96 960 960'
-							width='48'
-						>
-							<path d='M235.765 1006q-43.88 0-74.822-30.898-30.942-30.896-30.942-74.776 0-43.88 30.839-74.641 30.838-30.761 74.894-30.761 13.035 0 24.052 2.692 11.016 2.692 22.137 8.077l100.001-124.078q-18.23-21.462-26.884-48.077T351.001 578l-144.463-48.308q-13.846 24.23-37.302 38.038-23.456 13.808-53.848 13.808-43.567 0-74.477-30.795Q10 519.948 10 475.955q0-43.993 30.897-74.743 30.896-30.75 74.776-30.75 43.88 0 74.641 30.782 30.761 30.782 30.761 74.756 0 1.923-.192 4.308t-.192 3.538l145.078 50.078q15.308-27.769 38.115-43.807 22.808-16.039 52.269-22.269V314.23q-38.615-9.076-60.153-39.153Q374.462 245 374.462 211.38q0-43.495 30.795-74.437t74.788-30.942q43.993 0 74.743 30.91 30.75 30.91 30.75 74.628 0 33.461-21.846 63.538-21.846 30.077-59.846 39.153v153.618q29.461 6.23 52.576 22.269 23.115 16.038 38.808 43.807l144.078-50.078q-.384-1.057-.384-3.538V476q0-43.974 30.715-74.756 30.716-30.782 74.596-30.782t74.822 30.795q30.942 30.795 30.942 74.788 0 43.993-30.91 74.743-30.91 30.75-74.477 30.75-30.268 0-54.094-14-23.825-14-37.056-37.846L608.999 578q5 28.923-3.539 55.73-8.538 26.808-27.384 47.5l100.001 124.463q10.615-5.385 21.884-8.077 11.27-2.692 23.868-2.692 44.993 0 75.582 30.715 30.588 30.716 30.588 74.596t-30.897 74.822Q768.206 1006 724.326 1006q-43.88 0-74.641-30.815-30.761-30.814-30.761-74.833 0-19.196 5.323-34.607 5.324-15.412 16.831-30.36L541.076 710.537q-27.895 15.846-61.483 15.846-33.588 0-61.285-15.846l-99.386 125.848q11.154 14.615 16.654 29.693 5.5 15.078 5.5 34.274 0 44.019-30.715 74.833Q279.645 1006 235.765 1006ZM115.641 536.154q25.205 0 42.629-17.525 17.423-17.526 17.423-42.732 0-25.205-17.526-42.628-17.526-17.423-42.731-17.423-25.205 0-42.629 17.525-17.423 17.526-17.423 42.732 0 25.205 17.526 42.628 17.526 17.423 42.731 17.423Zm120 424.462q25.205 0 42.629-17.526 17.423-17.526 17.423-42.731 0-25.205-17.526-42.629-17.526-17.423-42.731-17.423-25.205 0-42.629 17.526-17.423 17.526-17.423 42.731 0 25.205 17.526 42.629 17.526 17.423 42.731 17.423Zm244.462-688.923q25.205 0 42.628-17.526 17.423-17.526 17.423-42.731 0-25.205-17.525-42.629-17.526-17.423-42.732-17.423-25.205 0-42.628 17.526-17.423 17.526-17.423 42.731 0 25.205 17.525 42.629 17.526 17.423 42.732 17.423ZM480.308 681q35.384 0 60.038-24.962Q565 631.077 565 595.692q0-35.384-24.766-60.038Q515.469 511 480 511q-35.077 0-60.038 24.766Q395 560.531 395 596q0 35.077 24.962 60.038Q444.923 681 480.308 681Zm244.256 279.616q25.205 0 42.629-17.526 17.423-17.526 17.423-42.731 0-25.205-17.526-42.629-17.526-17.423-42.731-17.423-25.205 0-42.629 17.526-17.423 17.526-17.423 42.731 0 25.205 17.526 42.629 17.526 17.423 42.731 17.423Zm120-424.462q25.205 0 42.629-17.525 17.423-17.526 17.423-42.732 0-25.205-17.526-42.628-17.526-17.423-42.731-17.423-25.205 0-42.629 17.525-17.423 17.526-17.423 42.732 0 25.205 17.526 42.628 17.526 17.423 42.731 17.423ZM480 211.539ZM115.539 476ZM480 596Zm364.461-120ZM235.539 900.461Zm488.922 0Z' />
-						</svg>
-					</Benefits>
-					<Benefits
-						heading='Benefits 02'
-						paragraph="A flexible, future-proof foundation that's built on open standards and evolves with today's complex ecosystem."
 					>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -71,7 +59,20 @@ export default function Home() {
 						</svg>
 					</Benefits>
 					<Benefits
-						heading='Benefits 03'
+						heading='Share the same language'
+						paragraph="A flexible, future-proof foundation that's built on open standards and evolves with today's complex ecosystem."
+					>
+						<svg
+							xmlns='http://www.w3.org/2000/svg'
+							height='48'
+							viewBox='0 96 960 960'
+							width='48'
+						>
+							<path d='M235.765 1006q-43.88 0-74.822-30.898-30.942-30.896-30.942-74.776 0-43.88 30.839-74.641 30.838-30.761 74.894-30.761 13.035 0 24.052 2.692 11.016 2.692 22.137 8.077l100.001-124.078q-18.23-21.462-26.884-48.077T351.001 578l-144.463-48.308q-13.846 24.23-37.302 38.038-23.456 13.808-53.848 13.808-43.567 0-74.477-30.795Q10 519.948 10 475.955q0-43.993 30.897-74.743 30.896-30.75 74.776-30.75 43.88 0 74.641 30.782 30.761 30.782 30.761 74.756 0 1.923-.192 4.308t-.192 3.538l145.078 50.078q15.308-27.769 38.115-43.807 22.808-16.039 52.269-22.269V314.23q-38.615-9.076-60.153-39.153Q374.462 245 374.462 211.38q0-43.495 30.795-74.437t74.788-30.942q43.993 0 74.743 30.91 30.75 30.91 30.75 74.628 0 33.461-21.846 63.538-21.846 30.077-59.846 39.153v153.618q29.461 6.23 52.576 22.269 23.115 16.038 38.808 43.807l144.078-50.078q-.384-1.057-.384-3.538V476q0-43.974 30.715-74.756 30.716-30.782 74.596-30.782t74.822 30.795q30.942 30.795 30.942 74.788 0 43.993-30.91 74.743-30.91 30.75-74.477 30.75-30.268 0-54.094-14-23.825-14-37.056-37.846L608.999 578q5 28.923-3.539 55.73-8.538 26.808-27.384 47.5l100.001 124.463q10.615-5.385 21.884-8.077 11.27-2.692 23.868-2.692 44.993 0 75.582 30.715 30.588 30.716 30.588 74.596t-30.897 74.822Q768.206 1006 724.326 1006q-43.88 0-74.641-30.815-30.761-30.814-30.761-74.833 0-19.196 5.323-34.607 5.324-15.412 16.831-30.36L541.076 710.537q-27.895 15.846-61.483 15.846-33.588 0-61.285-15.846l-99.386 125.848q11.154 14.615 16.654 29.693 5.5 15.078 5.5 34.274 0 44.019-30.715 74.833Q279.645 1006 235.765 1006ZM115.641 536.154q25.205 0 42.629-17.525 17.423-17.526 17.423-42.732 0-25.205-17.526-42.628-17.526-17.423-42.731-17.423-25.205 0-42.629 17.525-17.423 17.526-17.423 42.732 0 25.205 17.526 42.628 17.526 17.423 42.731 17.423Zm120 424.462q25.205 0 42.629-17.526 17.423-17.526 17.423-42.731 0-25.205-17.526-42.629-17.526-17.423-42.731-17.423-25.205 0-42.629 17.526-17.423 17.526-17.423 42.731 0 25.205 17.526 42.629 17.526 17.423 42.731 17.423Zm244.462-688.923q25.205 0 42.628-17.526 17.423-17.526 17.423-42.731 0-25.205-17.525-42.629-17.526-17.423-42.732-17.423-25.205 0-42.628 17.526-17.423 17.526-17.423 42.731 0 25.205 17.525 42.629 17.526 17.423 42.732 17.423ZM480.308 681q35.384 0 60.038-24.962Q565 631.077 565 595.692q0-35.384-24.766-60.038Q515.469 511 480 511q-35.077 0-60.038 24.766Q395 560.531 395 596q0 35.077 24.962 60.038Q444.923 681 480.308 681Zm244.256 279.616q25.205 0 42.629-17.526 17.423-17.526 17.423-42.731 0-25.205-17.526-42.629-17.526-17.423-42.731-17.423-25.205 0-42.629 17.526-17.423 17.526-17.423 42.731 0 25.205 17.526 42.629 17.526 17.423 42.731 17.423Zm120-424.462q25.205 0 42.629-17.525 17.423-17.526 17.423-42.732 0-25.205-17.526-42.628-17.526-17.423-42.731-17.423-25.205 0-42.629 17.525-17.423 17.526-17.423 42.732 0 25.205 17.526 42.628 17.526 17.423 42.731 17.423ZM480 211.539ZM115.539 476ZM480 596Zm364.461-120ZM235.539 900.461Zm488.922 0Z' />
+						</svg>
+					</Benefits>
+					<Benefits
+						heading='Reduce time to market'
 						paragraph='Ship faster and more often! With our CI/CD products that make building and shipping mobile apps a breeze.'
 					>
 						<svg
@@ -86,18 +87,10 @@ export default function Home() {
 				</Section>
 
 				{/* BLOG */}
-				<Section type='single' heading='From the Blog'>
-					<Card
-						imgSrc='img/tsr01.png'
-						category='Blog'
-						catTarget='#'
-						heading='Headline, Ladies'
-						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
-						linkTarget='http://bitgrip.com'
-					/>
+				<Section type='triple' heading='News & Highlights'>
 					<Card
 						imgSrc='img/tsr02.png'
-						category='Design'
+						// category='Design'
 						catTarget='#'
 						heading='Nicholas Humphrey’s Beautiful Theory of Mind'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
@@ -105,28 +98,36 @@ export default function Home() {
 					/>
 					<Card
 						imgSrc='img/tsr03.png'
-						category='Culture'
+						// category='Culture'
 						catTarget='#'
-						heading='Winning Tactics For TOKEN DESIGN'
+						heading='Winning Tactics For Successful TOKEN DESIGN'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
 						linkTarget='http://bitgrip.com'
 					/>
 					<Card
 						imgSrc='img/tsr04.png'
-						category='Tech & Dev'
+						// category='Tech & Dev'
 						catTarget='#'
 						heading='Little Known Ways To Rid Yourself Of the Grid'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
 						linkTarget='http://bitgrip.com'
 					/>
-					<Card
+					{/* <Card
 						imgSrc='img/tsr05.png'
-						category='Design'
+						// category='Design'
 						catTarget='#'
 						heading='The Hidden Mystery Behind Design Tokens'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
 						linkTarget='http://bitgrip.com'
 					/>
+					<Card
+						imgSrc='img/tsr01.png'
+						// category='Blog'
+						catTarget='#'
+						heading='Headline, Ladies'
+						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
+						linkTarget='http://bitgrip.com'
+					/> */}
 				</Section>
 			</main>
 
