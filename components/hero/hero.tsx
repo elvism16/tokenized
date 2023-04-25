@@ -25,11 +25,11 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="btn-group">
             {btnLabelPrimary && <Button
               type='primary'
-              target='http://bitgrip.com'
+              target='/article'
               onClick={() => console.log("You clicked the button!")}
             >{btnLabelPrimary}</Button>}
             {btnLabelSecondary && <Button
-              target='http://bitgrip.com'
+              target='/article'
               onClick={() => console.log("You clicked the button!")}
             >{btnLabelSecondary}</Button>}
           </div>

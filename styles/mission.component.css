@@ -1,15 +1,39 @@
 .mission {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 
+  'image image image image'
+  'intro intro intro intro'
+  'button button button button';
   gap: var(--space-800);
 }
 
-.mission__content {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+@media (min-width: 48em) {
+  .mission {
+    grid-template-areas: 
+    'intro intro intro .'
+    'button image image image';
+  }
+}
+
+.mission__intro {
+  grid-area: intro;
 }
 
 .mission .btn {
-  margin-top: auto;
+  align-self: start;
+  justify-self: start;
+  grid-area: button;
+}
+
+.mission__media {
+  grid-area: image;
+}
+
+.mission__headline {
+  margin-bottom: var(--space-400);
+}
+
+.mission__text {
+  font-size: var(--font-size-400);
 }

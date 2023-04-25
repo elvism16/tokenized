@@ -27,14 +27,14 @@ export default function Home() {
 
 				{/* OUR MISSION */}
 
-				<Section type='single' heading='Welcome'>
+				<Section type='single' heading='Bring your design system to life'>
 					<Mission
 						heading='Build a design system you can use — fast'
 						paragraph='Building and maintaining a design system can feel like an impossible challenge. Knapsack gives teams a jump start by providing the core infrastructure and platform needed to get to value quickly, with best practices baked into the platform.'
-						btnLabelPrimary='Contact Sales'
+						btnLabelPrimary='Contact our Sales Team'
 						btnTarget='#'
 						btnType='secondary'
-						imgSrc='img/tsr05.png'
+						imgSrc='img/welcome02.png'
 						imgAlt='Hell, yeah'
 					/>
 				</Section>
@@ -98,12 +98,12 @@ export default function Home() {
 				{/* BLOG */}
 				<Section type='triple' heading='News & Highlights'>
 					<Card
-						imgSrc='img/tsr02.png'
+						imgSrc='img/tsr05.png'
 						// category='Design'
 						catTarget='#'
-						heading='Nicholas Humphrey’s Beautiful Theory of Mind'
+						heading='The Hidden Mystery Behind Our Design Tokens'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
-						linkTarget='http://bitgrip.com'
+						linkTarget='/article'
 					/>
 					<Card
 						imgSrc='img/tsr03.png'
@@ -111,7 +111,7 @@ export default function Home() {
 						catTarget='#'
 						heading='Winning Tactics For Successful TOKEN DESIGN'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
-						linkTarget='http://bitgrip.com'
+						linkTarget='/article'
 					/>
 					<Card
 						imgSrc='img/tsr04.png'
@@ -119,7 +119,7 @@ export default function Home() {
 						catTarget='#'
 						heading='Little Known Ways To Rid Yourself Of the Grid'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
-						linkTarget='http://bitgrip.com'
+						linkTarget='/article'
 					/>
 					{/* <Card
 						imgSrc='img/tsr05.png'
@@ -127,7 +127,7 @@ export default function Home() {
 						catTarget='#'
 						heading='The Hidden Mystery Behind Design Tokens'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
-						linkTarget='http://bitgrip.com'
+						linkTarget='/article'
 					/>
 					<Card
 						imgSrc='img/tsr01.png'
@@ -135,7 +135,7 @@ export default function Home() {
 						catTarget='#'
 						heading='Headline, Ladies'
 						paragraph='Our culture is dominated by efforts to score points and win arguments. But do we really talk anymore?'
-						linkTarget='http://bitgrip.com'
+						linkTarget='/article'
 					/> */}
 				</Section>
 			</main>

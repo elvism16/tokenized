@@ -25,17 +25,15 @@ export const Mission: React.FC<MissionProps> = ({
 }: MissionProps) => {
   return (
     <div className="mission">
-      <div className="mission__content">
-        <div className="mission__intro">
-          <Heading as="h3" className="mission__headline">{heading}</Heading>
-          {paragraph && <p className="mission__text">{paragraph}</p>} 
-        </div>
-        {btnLabelPrimary && <Button
-          type={btnType}
-          target={btnTarget}
-          onClick={() => console.log("You clicked the button!")}
-          >{btnLabelPrimary}</Button>}
+      <div className="mission__intro">
+        <Heading as="h3" className="mission__headline">{heading}</Heading>
+        {paragraph && <p className="mission__text">{paragraph}</p>} 
       </div>
+      {btnLabelPrimary && <Button
+        type={btnType}
+        target={btnTarget}
+        onClick={() => console.log("You clicked the button!")}
+      >{btnLabelPrimary}</Button>}
       <div className="mission__media">
         <img className="mission__image" src={imgSrc} alt={imgAlt} />
       </div>
