@@ -16,6 +16,6 @@ jobs:
       with:
         source_file: 'tokens/'
         destination_repo: 'elvism16/tokenized-app'
-        destination_folder: 'tokens'
+        destination_folder: '/'
         user_email: 'elvis.m16@gmail.com'
         user_name: 'elvism16'
