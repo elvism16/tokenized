@@ -31,10 +31,10 @@ export default function Home() {
 					<Mission
 						heading='Build a design system you can use — fast'
 						paragraph='Building and maintaining a design system can feel like an impossible challenge. Knapsack gives teams a jump start by providing the core infrastructure and platform needed to get to value quickly, with best practices baked into the platform.'
-						btnLabelPrimary='Contact our Sales Team'
+						btnLabelPrimary='Our Work & Projects'
 						btnTarget='#'
-						btnType='secondary'
-						imgSrc='img/welcome02.png'
+						btnType='primary'
+						imgSrc='img/welcome03.jpg'
 						imgAlt='Hell, yeah'
 					/>
 				</Section>
