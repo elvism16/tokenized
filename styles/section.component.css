@@ -28,6 +28,11 @@
 	margin-bottom: var(--space-600);
 }
 
+.section__triple .container {
+	display: grid;
+	gap: 24px;
+}
+
 @media (min-width: 48em) {
 	.section__single .container {
 		display: grid;
