@@ -10,7 +10,7 @@
 }
 
 .benefits__icon svg {
-  fill: var(--semantics-color-text-brand);
+  fill: var(--icon-primary);
 }
 
 .benefits__headline {

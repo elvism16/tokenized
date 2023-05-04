@@ -8,7 +8,7 @@
 }
 
 .header-wrapper:has(.is-open) .claim {
-	fill: var(--color-primary-700);
+	fill: var(--color-secondary-brand);
 	transition: var(--transition-200);
 }
 
@@ -19,7 +19,7 @@
 }
 
 .claim {
-	fill: var(--color-primary-700);
+	fill: var(--text-primary);
 	margin-top: calc(var(--space-100) / 2);
 }
 

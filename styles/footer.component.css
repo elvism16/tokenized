@@ -18,13 +18,14 @@
 }
 
 .footer__nav a {
-  color: var(--semantics-color-text-dark);
+  color: var(--link-dark);
   font-size: var(--font-size-075);
-  text-decoration: var(--font-text-decoration-none);
+  text-decoration: none;
 }
 
 .footer__nav a:hover,
 .footer__nav a:focus,
 .footer__nav a:active {
+  color: var(--link-dark-hover);
   text-decoration: underline;
 }

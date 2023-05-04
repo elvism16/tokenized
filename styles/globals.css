@@ -21,8 +21,8 @@ body {
 }
 
 body {
-	background-color: var(--color-white);
-	color: var(--semantics-color-text-dark);
+	background-color: var(--background-light);
+	color: var(--text-dark);
 	font-family: var(--font-family-sans);
 	font-size: 100%;
 	line-height: var(--font-line-height-default);
@@ -32,8 +32,8 @@ body {
 
 a {
 	color: inherit;
-	color: var(--color-primary-700);
-	text-decoration: var(--font-text-decoration-underline);
+	color: var(--link-primary);
+	text-decoration: underline;
 }
 
 img {
@@ -68,22 +68,22 @@ ul {
 	outline-offset: 2px;
 }
 
+h1, h2, h3 {
+	color: var(--headline-dark);
+	font-weight: var(--font-weight-900);
+	line-height: var(--heading);
+}
+
 h1 {
 	font-size: var(--font-size-900);
-	font-weight: var(--font-weight-900);
-	line-height: var(--semantics-line-height-heading);
 }
 
 h2 {
 	font-size: var(--font-size-700);
-	font-weight: var(--font-weight-900);
-	line-height: var(--semantics-line-height-heading);
 }
 
 h3 {
 	font-size: var(--font-size-500);
-	font-weight: var(--font-weight-900);
-	line-height: var(--semantics-line-height-heading);
 }
 
 .container {

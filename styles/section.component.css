@@ -3,12 +3,12 @@
 }
 
 .section__hero {
-	/* background: linear-gradient(
+	background: linear-gradient(
 		315deg,
 		var(--color-primary-700) 25%,
-		var(--color-neutral-700)
-	); */
-	background-color: var(--color-neutral-700);
+		var(--color-secondary-400)
+	);
+	background-color: var(--color-primary-700);
 	padding: calc(3 * var(--space-800)) 0;
 }
 
